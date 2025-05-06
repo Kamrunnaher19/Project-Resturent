@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Navigation Bar start*/
+.navbar-brand{
+    font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.nav-item{
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.d-flex{
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}
+.nav-item:hover{
+    color:#f8f9fa;
+    background-color: rgba(0, 0, 0, 0.306);
+    border-radius: 100px;
+}
+  
+/* Navigation Bar End*/
+
+
+/* Index About Starts*/
+/* Float four columns side by side */
+.column-about {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row-about {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row-about:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column-about {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card-about {
+    
+    padding: 16px;
+    text-align: center;
+    
+  }
+  /* index about end*/
+  
+  /* index Card Start*/
+  
+  /* index Card-col Start*/
+/* Float four columns side by side */
+.column-col {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row-col {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row-col:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column-col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      height: 100%;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card-col {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  /* index Card End*/
+  
+  .card a{
+    text-decoration: none;
+    color: black;
+  }
+.card-title{
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}
+.button{
+    place-items: left;
+    place-self: left;
+    place-content: left;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+/*Gallary*/
+.row-gal {margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row-gal:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column-gal {
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+    
+  }
+}
+
+/* Style the counter cards */
+.card-gal{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #5de3b223;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /*gallary image section*/
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04aa6d8c;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .text a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+  
+/* Gallary End*/
+/*feedback start*/
+
+.reviews-section {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.reviews-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.reviews-section p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  border: 1px solid #000000;
+  padding: 20px;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.review-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid #000000;
+  margin-bottom: 10px;
+}
+
+.review-card h3 {
+  margin: 10px 0 5px;
+}
+
+.stars {
+  margin-top: 10px;
+  color: #ffac33;
+}
+
+/*feedback section end*/
+
+/*footer start*/
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: #6c757d;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.checked {
+  color: orange;
+}
+
+

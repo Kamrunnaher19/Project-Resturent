@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="src/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>Explore With Test</title>
+</head>
+
+<body>
+  <!--Navbar Start-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top opacity-90" style="padding:5px">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="src/favicon.svg" alt="Logo" height="50px" width="50px">
+        Explore With Test</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="FAQ.html">FAQ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Bengali Food</a></li>
+              <li><a class="dropdown-item" href="#">Chines Food</a></li>
+              <li><a class="dropdown-item" href="#">Italian</a></li>
+              <li><a class="dropdown-item" href="#">Continental</a></li>
+              <li><a class="dropdown-item" href="#">South-Indian </a></li>
+              <li><a class="dropdown-item" href="#">North-Indian </a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-tertiary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar end-->
+
+  <!--Carousal starts-->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin: top 5rem;;">
+    <div class="carousel-inner" style="height: 80vh; padding:5px">
+      <div class="carousel-item active">
+        <img src="src/banner-1.jpg" class="d-block w-100" alt="Bengali Food">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="src/banner-2.jpg" class="d-block w-100" alt="Continental Food">
+      </div>
+      <div class="carousel-item">
+        <img src="src/banner-3.jpg" class="d-block w-100" alt="Chinese Food">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--Carousel End-->
+
+  <!--About Resturant Starts -->
+
+  <div class="row-about">
+    <div class="column-about">
+      <div class="card-about">
+       <div class="about" style="margin: 2rem;">
+        <h3 style="font-family: 'Emilys Candy', cursive; text-align: center; color: #000000;">Welcome to Explore With
+          Test</h3>
+        <p style=" text-align: center; color: #000000;">Explore with test is a restaurant that offers a unique dining
+          experience with a focus on quality and flavor. </p>
+      </div>
+       </div>
+    </div>
+  </div>
+
+<!--About Resturant End-->
+<!--Card-col Starts-->
+<div class="row-col">
+  <div class="column-col">
+    <div class="card-col" style="display: flex; flex-direction:row; justify-content:space-between; margin:2rem;">
+      <div class="card" style="width: 18rem;">
+        <a href="#">
+          <img src="src/food1.jpg" height="250px" class="card-img-top" alt="Continental Food">
+        <div class="card-body">
+          <h5 class="card-title">Bengali Plate</h5>
+          <p class="card-text" style="text-align: justify;">Bengali cuisine is known for its rich flavors and use of spices, with a focus on fish, rice, and lentils. <br></p>
+          <hr>
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-secondary" type="">Price: ৳ 250</button>
+            <button class="btn btn-outline-secondary" type="button">Order Now</button>
+          </div>
+        </div>
+        </a>
+       
+       
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <a href="#">
+          <img src="src/food1.jpg" class="card-img-top" alt="Continental Food">
+        <div class="card-body">
+          <h5 class="card-title">Italian Food</h5>
+          <p class="card-text"style="text-align: justify;">Italian cuisine is known for its pasta, pizza, and use of fresh ingredients like tomatoes and basil. <br> <br></p>
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-secondary" type="">Price: ৳ 250</button>
+            <button class="btn btn-outline-secondary" type="button">Order Now</button>
+          </div>
+        </div>
+        </a>
+       
+        
+      </div>
+
+      <div class="card" style="width: 18rem;">
+      
+        <a href="#">
+          <img src="src/food1.jpg" class="card-img-top" alt="Continental Food">
+        <div class="card-body">
+          <h5 class="card-title">Chinese Food</h5>
+          <p class="card-text"style="text-align: justify;">Chinese cuisine is diverse and flavorful, with a wide range of dishes that vary by region. <br> <br><br></p>
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-secondary" type="">Price: ৳ 250</button>
+            <button class="btn btn-outline-secondary" type="button">Order Now</button>
+          </div>
+        </div>
+        </a>
+       
+      </div>
+      <div class="card" style="width: 18rem;">
+        
+        <a href="#">
+          <img src="src/food1.jpg" class="card-img-top" alt="Continental Food">
+        <div class="card-body">
+          <h5 class="card-title">Continental Food</h5>
+          <p class="card-text"style="text-align: justify;">Chinese cuisine is diverse and flavorful, with a wide range of dishes that vary by region. <br> <br><br></p>
+
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-secondary" type="">Price: ৳ 250</button>
+            <button class="btn btn-outline-secondary" type="button">Order Now</button>
+          </div>
+        </div>
+        </a>
+       
+      </div>
+
+           
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Card-col End-->
+
+<div class="row-about">
+  <div class="column-about">
+    <div class="card-about">
+     <div class="about" style="margin: 2rem;">
+      <h3 style="font-family: 'Emilys Candy', cursive; text-align: center; color: #000000;">Explore more Food </h3>
+    </div>
+     </div>
+  </div>
+</div>
+
+<!--Gallary Section start--> 
+ 
+<div class="row-gall" >
+  <div class="column-gall">
+    <div class="card-gall">
+     <div style="display: flex; ">
+      <div class="container">
+        <img src="src/food1.jpg" alt="Avatar" class="image" style="width:100% height:100%" >
+        <div class="middle">
+          <div class="text">
+            <a href="#"> Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="src/Bhapa ilish & Rice.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text">
+            <a href="#"> Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="src/Traditional bangali misty platter.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text">
+            <a href="#"> Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="src/food1.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text"><a href="#"> Order Now</a></div>
+        </div>
+      </div>
+     </div>
+    </div>
+     </div>
+     <div class="card-gal">
+      <div style="display: flex; ">
+       <div class="container">
+         <img src="src/food1.jpg" alt="Avatar" class="image" style="width:100% height:100%" >
+         <div class="middle">
+           <div class="text">
+            <a href="#"> Order Now</a>
+           </div>
+         </div>
+       </div>
+       <div class="container">
+         <img src="src/Bhapa ilish & Rice.jpg" alt="Avatar" class="image" style="width:100%">
+         <div class="middle">
+           <div class="text">
+            <a href="#"> Order Now</a>
+           </div>
+         </div>
+       </div>
+       <div class="container">
+         <img src="src/Traditional bangali misty platter.jpg" alt="Avatar" class="image" style="width:100%">
+         <div class="middle">
+           <div class="text"><a href="#"> Order Now</a></div>
+         </div>
+       </div>
+       <div class="container">
+         <img src="src/food1.jpg" alt="Avatar" class="image" style="width:100%">
+         <div class="middle">
+           <div class="text"><a href="#"> Order Now</a></div>
+         </div>
+       </div>
+      </div>
+     </div>
+      </div>
+  </div>
+</div>
+
+<!--Gallary Section end--> 
+<!--Feedback Section start-->
+<section class="reviews-section">
+  <h2>Coustomer Review</h2>
+  <p>
+
+
+  </p>
+
+  <div class="review-cards">
+    <div class="review-card">
+      <img src="src/r-1.jpg" alt="Traveler" class="review-img">
+      <h3>Jessica M.</h3>
+      <p>"Absolutely loved it!"<br>
+        “From the moment we walked in, the atmosphere was cozy and welcoming. The staff were super friendly, and the food was delicious! I had the grilled salmon, and it was cooked to perfection. Definitely coming back soon!”</p>
+      <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+    </div>
+    <div class="review-card">
+      <img src="src/r-2.jpg" alt="Traveler" class="review-img">
+      <h3>Jikrul & Hosniara</h3>
+      <p>"Great service, tasty food!"<br>
+        “The staff made us feel right at home. Our server recommended the house burger and it did not disappoint! Only reason it’s not five stars is the wait time, but the food made up for it.”</p>
+      <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+    </div>
+    <div class="review-card">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Traveler" class="review-img">
+      <h3>Nazmul</h3>
+      <p>"Best vegan options in town!"<br>
+        “As a vegan, it's hard to find variety, but this restaurant nailed it. The vegan curry was flavorful, and the dessert—wow. So glad I found this place!”</p>
+      <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+    </div>
+  </div>
+</section>
+<!--Feedback Section End-->
+<!--Footer start-->
+<footer class="footer">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              <p class="mb-0">&copy2025 Explore With Test | Kamrun | All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+              <div class="social-icons">
+                  <a href="#" aria-label="Facebook"><img src="src/facebook logo.svg" alt="Facebook" height="30px;"width="30px; "></a>
+                  <a href="#" aria-label="Facebook"><img src="src/Twitter_icon-icons.com_66803.svg" alt="Twitter" height="30px;"width="30px; "></a>
+                  <a href="#" aria-label="Facebook"><img src="src/linkin_logo_icon_154491.svg" alt="Iinkin" height="30px;"width="30px; "></a>
+                  <a href="#" aria-label="Facebook"><img src="src/instragram logo.svg" alt="Instagram" height="30px;"width="30px; "></a>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+  <!--Bootstrap CND link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
